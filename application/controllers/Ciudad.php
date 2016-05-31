@@ -6,6 +6,7 @@ class Ciudad extends CI_Controller{
         $this->load->model('Ciudad_model');
         $this->load->helper('url');
         $this->load->library('session');
+        $this->load->library('html2pdf');
         if($this->session->userdata('login')){
             
         }else{
