@@ -6,7 +6,7 @@ class Encriptar extends CI_Controller{
         
     }
     public function index(){
-        $nombre='admin';
+        $nombre='memofecci';
         $salida= password_hash($nombre, PASSWORD_DEFAULT);
         echo $salida;
     }
